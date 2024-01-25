@@ -9,7 +9,7 @@ app.use(express.json());
 const port = process.env.PORT;
 
 app.get('/', (req, res) => {
-    res.send('Hello Worldgit add .');});
+    res.send('Hello Worldgit add');});
 
 app.post("/post", (req, res) => {
     const {userName} = req.body;
